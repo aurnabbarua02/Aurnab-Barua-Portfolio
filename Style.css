@@ -1,3 +1,29 @@
+body{
+  background-color: white;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+  .footer {
+    background-color: white;
+  }
+  .image_hover:hover {
+    box-shadow: 0px 10px 30px rgba(255, 247, 247, 0.3);
+  }
+}
+.icon {
+  cursor: pointer;
+  font-size: 30px;
+  display: none;
+  float: right;
+  /* color: black; */
+}
+.icon.active {
+  display: inline;
+  float: right;
+  /* color: yellow; */
+}
 .header {
   width: 100%;
   position: fixed;
@@ -51,6 +77,7 @@
   background-color: black;
   margin-top: 70px;
 }
+
 
 .footer_heading {
   font-size: 40px;
