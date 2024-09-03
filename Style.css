@@ -1,3 +1,9 @@
+.nav-item:hover{
+  background-color: rgb(101, 220, 101);
+}
+.activeheader{
+  background-color: rgb(101, 220, 101);
+}
 body{
   background-color: white;
   color: black;
