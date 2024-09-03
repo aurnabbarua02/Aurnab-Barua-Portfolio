@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
         entries.forEach(function(entry) {
             if (entry.isIntersecting) {
                 navLinks.forEach(function(link) {
-                    link.classList.remove('activeheader');
+                    link.classList.remove('active');
                     if (link.getAttribute('href').substring(1) === entry.target.id) {
-                        link.classList.add('activeheader');
+                        link.classList.add('active');
                     }
                 });
             }
